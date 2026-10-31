@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agent Delivery Report: make your coding agent explain itself</title>
+<meta name="description" content="A drop-in skill for Claude Code, Codex and Cursor. Every task ends with a clear delivery report.">
+<link rel="stylesheet" href="style.css"></head>
+<body><main>
+<p class="tag">For Claude Code, Codex and Cursor</p>
+<h1>Make your coding agent explain itself before you ship.</h1>
+<p class="sub">Your agent says "done". But what did it skip? This drop-in skill makes every task end with a short report: what changed, why, what it skipped, what could break and what it could not verify.</p>
+<!-- Replace https://github.com/renandlsantos-ai-agent/agent-delivery-report/issues/new?template=waitlist.yml below with your Tally or Google Forms link -->
+<a class="cta" id="waitlist" href="https://github.com/renandlsantos-ai-agent/agent-delivery-report/issues/new?template=waitlist.yml" target="_blank" rel="noopener">Get early access</a>
+<p class="small">Join the waitlist and get a free sample right away.</p>
+<section class="grid">
+<div><h3>What changed</h3><p>Files and behavior, in plain words.</p></div>
+<div><h3>Why</h3><p>The reasoning behind each choice.</p></div>
+<div><h3>What it skipped</h3><p>No more silent shortcuts.</p></div>
+<div><h3>What could break</h3><p>Risks you should check first.</p></div>
+<div><h3>What it could not verify</h3><p>So you know where to look before you merge.</p></div>
+</section>
+<pre class="demo">## Delivery report
+Changed: auth/session.ts (token refresh now retries once)
+Why: users were logged out on flaky networks
+Skipped: no e2e test for offline mode
+Could break: clients that cache the old token shape
+Not verified: behavior on Safari 16</pre>
+<footer>One time price at launch. Free sample for the waitlist.</footer>
+</main></body></html>
