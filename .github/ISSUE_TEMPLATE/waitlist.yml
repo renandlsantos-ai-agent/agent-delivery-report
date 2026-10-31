@@ -1,0 +1,17 @@
+name: Join the waitlist
+description: Get early access and the free sample
+title: "Waitlist: "
+labels: ["waitlist"]
+body:
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool do you use?
+      options: [Claude Code, Codex, Cursor, Other]
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Email (optional)
+      description: Leave it if you want the sample by email. Your GitHub handle works too.
